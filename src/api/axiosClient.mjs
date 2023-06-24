@@ -2,7 +2,11 @@ import axios from "axios";
 
 
 const axiosClient = axios.create({
-    baseURL: import.meta.env.VITE_BASE_URL
+    baseURL: import.meta.env.VITE_BASE_URL,
+    headers: {
+      'Access-Control-Allow-Origin': 'https://weather-web-teal.vercel.app/',
+      'Content-Type': 'application/json',
+    },  
   });
 
   axiosClient.interceptors.request.use(function (config) {

@@ -1,0 +1,32 @@
+.weekForecast-section {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+
+  height: 70%;
+  width: 100%;
+  background-color: var(--secondary-color);
+
+  border-radius: 10px;
+  transition: height 1.5s;
+}
+
+.todayForecast-section {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.todayForecast-section.is-Show {
+  visibility: hidden;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.weekForecast-section.is-Show {
+  height: 100%;
+}
+
+.weekForecast-section.is-Show .weekInfo-condition {
+  font-size: 16px;
+}

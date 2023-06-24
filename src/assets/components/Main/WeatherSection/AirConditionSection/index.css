@@ -1,0 +1,161 @@
+.airCondition-section {
+  position: relative;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  transition: width 0.75s;
+}
+.airCondition-section.is-Show{
+  width: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.airCondition-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.airCondition-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.airCondition-infoItem {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.airCondition-infoText {
+  font-size: 20px;
+  color: var(--secondary-text-color);
+}
+
+.airCondition-infoTitle {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+
+  margin-bottom: 12px;
+}
+
+.airCondition-infoData {
+  margin-left: 34px;
+
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-text-color);
+}
+
+.airCondition-infoTitle img {
+  width: 24px;
+  height: 24px;
+}
+
+.airCondition-btnSeeMore {
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  width: 100px;
+  height: 40px;
+
+  background-color: #44A3FF;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 3px 1px #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.airCondition-btnSeeMore:hover {
+  box-shadow: 0 0 4px 3px #ffffff;
+}
+
+/* SEE MORE SECTION */
+.seeMore-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.seeMore-infoItem {
+  padding: 20px 40px;
+  margin-bottom: 30px;
+
+  width: 40%;
+
+
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  border: solid 1px #ffffff;
+}
+
+.seeMore-infoItem:hover {
+  box-shadow: 0 0 0 1px var(--primary-text-color);
+}
+
+.seeMore-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.airCondition-seeMore {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  opacity: 1;
+  visibility: visible;
+  transition: height 1s;
+
+  overflow: hidden;
+  height: 0; 
+  width: 100%;
+
+  background-color: var(--primary-color);
+}
+
+.airCondition-seeMore.is-show {
+  height: 65%;
+
+  opacity: 1;
+  visibility: visible;
+}
+
+.seeMore-btnHide {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+
+  background-color: var(--primary-text-color);
+  width: 35px;
+  height: 24px;
+
+  border: none;
+  box-shadow: 0 0 0 1px var(--primary-text-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seeMore-btnHide:hover {
+  box-shadow: 0 0 4px 3px var(--primary-text-color);
+}
+
+.seeMore-btnHide img {
+  width: 100%;
+  height: 100%;
+}

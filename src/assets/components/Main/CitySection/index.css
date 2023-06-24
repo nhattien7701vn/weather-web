@@ -1,0 +1,53 @@
+.cityWeather-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-top: 20px;
+  padding: 10px 5px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.cityWeather-items {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 15px 25px;
+
+  width: 95%;
+  height: 17%;
+  background-color: var(--secondary-color);
+
+  border-radius: 15px;
+
+}
+
+.cityWeather-items:hover {
+  background-color: transparent;
+  box-shadow: 0 0 1px 1px #0461a5;
+
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-text-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-text-color);
+}

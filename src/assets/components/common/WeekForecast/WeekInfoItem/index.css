@@ -1,0 +1,33 @@
+
+
+.weekInfo-day {
+  width: 23%;
+}
+
+.weekInfo-item span {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+}
+
+.weekInfo-minMAx strong {
+  font-size: 16px;
+  color: var(--primary-text-color);
+  font-weight: bold;
+}
+
+.weekInfo-condition {
+  font-size: 13px;
+  font-weight: bold;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  width: 25%;
+}
+
+.weekInfo-minMAx {
+  position: absolute;
+  right: 0;
+}
+
+.weekInfo-icon {
+  height: 100%;
+}

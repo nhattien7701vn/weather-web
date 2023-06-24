@@ -1,0 +1,30 @@
+.seeMore-infoText {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--secondary-text-color);
+}
+
+.seeMore-infoTitle {
+  display: flex;
+  align-content: center;
+  gap: 12px;
+
+  margin-bottom: 12px;
+}
+
+.seeMore-infoData {
+  margin-left: 36px;
+
+  font-size: 34px;
+  font-weight: bold;
+  color: var(--primary-text-color);
+}
+
+.seeMore-infoIcon{
+  width: 24px;
+  height: 24px;
+}
+.seeMore-infoTitle path{
+  stroke: var(--secondary-text-color);
+}

@@ -1,0 +1,38 @@
+.todayForecast-container {
+  display: flex;
+  padding: 30px 30px 10px 30px;
+  flex-direction: column;
+  width: 100%;
+
+  border-radius: 10px;
+  transition: width 0.75s;
+}
+
+
+
+.todayForecast-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.todayForecast-timeLine {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  width: 100%;
+  justify-content: space-between;
+}
+
+.timeLine-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 15%;
+
+  margin-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+.cityWeather-icon {
+  height: 100%;
+  margin-right: 40px;
+}
+
+.cityWeather-cityName {
+  font-size: 32px;
+  color: var(--primary-text-color);
+  margin-bottom: 15px;
+}
+
+.cityWeather-cityTime {
+  font-size: 20px;
+  color: var(--primary-text-color);
+}
+
+.cityWeather-cityTemp{
+  position: absolute;
+  right: 40px;
+  font-size: 40px;
+  color: var(--primary-text-color);
+}

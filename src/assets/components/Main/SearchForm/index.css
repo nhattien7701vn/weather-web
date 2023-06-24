@@ -1,0 +1,39 @@
+.content-searchInput {
+  padding-left: 15px;
+  height: 45px;
+  width: 100%;
+
+  font-size: 17px;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-color);
+  border: solid 1.5px var(--secondary-text-color);
+  border-radius: 10px;
+}
+
+.content-searchForm {
+  padding: 8px;
+  position: relative;
+}
+
+.content-searchButton {
+  position: absolute;
+  top: 50%;
+  right: 9px;
+  transform: translateY(-50%);
+
+  height: 35px;
+  width: 35px;
+
+  background-color: transparent;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.content-searchButton svg {
+  width: 18px;
+  height: 18px;
+}
+
+.content-searchButton svg path {
+  stroke: var(--secondary-text-color);
+}

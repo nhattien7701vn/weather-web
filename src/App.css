@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-color: #0b131e;
+  --secondary-color: #202b3b;
+  --primary-text-color: #e7e5e5;
+  --secondary-text-color: #8d939d;
+}
+
+[theme="light"] {
+  --primary-color: #adcdfa;
+  --secondary-color: #7f9bc5d2;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #b8c4e7;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  background-color: var(--primary-color);
+}
+
+sup {
+  font-size: 50%;
+}

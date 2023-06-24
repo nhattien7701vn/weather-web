@@ -1,0 +1,33 @@
+.weatherInfo-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weatherInfo-left h1 {
+  margin-bottom: 15px;
+
+  color: var(--primary-text-color);
+  font-size: 40px;
+}
+
+.weatherInfo-left p {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.weatherInfo-left h2 {
+  color: var(--primary-text-color);
+  font-size: 64px;
+}
+
+.weatherInfo-right {
+  right: 0;
+  width: 170px;
+}
+
+.weatherInfo-right img {
+  width: 100%;
+}

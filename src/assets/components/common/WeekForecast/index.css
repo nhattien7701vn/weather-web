@@ -1,0 +1,47 @@
+.weekForecast-container {
+  padding: 30px 30px 10px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.weekForecast-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.weekForecast-weekInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+
+.weekInfo-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 12%;
+
+}
+
+.weekForecast-btnZoom {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+
+  padding-bottom: 20px;
+  width: 100%;
+  height: 10px;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

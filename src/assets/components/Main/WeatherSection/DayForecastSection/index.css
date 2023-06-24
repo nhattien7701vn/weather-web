@@ -1,0 +1,16 @@
+.dayForecast-section {
+  width: 100%;
+
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+
+  opacity: 1;
+  visibility: visible;
+  transition: width 1s;
+}
+
+.dayForecast-section.is-Show {
+  width: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
